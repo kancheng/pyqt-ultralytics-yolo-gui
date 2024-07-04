@@ -16,7 +16,7 @@ YOLO is a model arcitecture that is gaining attention in the real-time object de
 
 ## Requirements
 * qtpy
-* PyQt6
+* PyQt5
 * PySide6
 * pillow
 * opencv-python
@@ -31,6 +31,20 @@ YOLO is a model arcitecture that is gaining attention in the real-time object de
 2. pip install -r requirements.txt
 3. python main.py
 4. Write path in the input and click run. There are a three files (2 images, 1 video) in sample folder in case of you don't want to be bothered by finding files to test.
+
+### Notice
+
+1. If get this error: from 6.5.0, xcb-cursor0 or libxcb-cursor0 is needed to load the Qt xcb platform plugin. 
+
+```
+sudo apt-get install -y libxcb-cursor-dev
+```
+
+2. Install pyqt
+
+```
+conda install pyqt
+```
 
 ## Preview
 ![image](https://github.com/yjg30737/pyqt-ultralytics-yolo-gui/assets/55078043/49d2efd2-081d-4f4e-a37b-0550afe69071)

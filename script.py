@@ -33,6 +33,8 @@ class YOLOWrapper:
         self.__model = YOLO('yolov8n.pt')
         # Semantic segmentation model
         self.__model_seg = YOLO('yolov8n-seg.pt')
+        # self.__model_seg = YOLO('other-seg.pt')
+
 
         # 0 is object detection, 1 is semantic segmentation
         self.__model_dict = {
@@ -48,7 +50,7 @@ class YOLOWrapper:
                 result_dict = {}
                 ext = Path(src_filename).suffix
                 dst_filename = f'{Path(src_filename).stem}_result{ext}'
-                if ext in ['.jpg', '.png', '.jpeg']:
+                if ext in ['.jpg', '.png', '.jpeg', '.bmp']:
                     results = cur_model(src_filename)
                     # Save result image
                     for r in results:
