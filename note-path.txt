@@ -1,0 +1,9 @@
+/home/kan/foxconn/lab-foxconn-test/pyqt-ultralytics-yolo-gui/sample/a.jpg
+
+/home/kan/foxconn/lab-foxconn-test/pyqt-ultralytics-yolo-gui/sample/b.png
+
+/home/kan/foxconn/lab-foxconn-test/pyqt-ultralytics-yolo-gui/sample/c.jpg
+
+/home/kan/foxconn/lab-foxconn-test/pyqt-ultralytics-yolo-gui/sample/d.bmp
+
+/home/kan/foxconn/lab-foxconn-test/pyqt-ultralytics-yolo-gui/sample/sample.mp4

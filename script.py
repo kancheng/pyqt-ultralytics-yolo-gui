@@ -31,9 +31,10 @@ class YOLOWrapper:
     def download_model(self):
         # Object detection model
         self.__model = YOLO('yolov8n.pt')
+        # self.__model = YOLO('other.pt')
         # Semantic segmentation model
         self.__model_seg = YOLO('yolov8n-seg.pt')
-        # self.__model_seg = YOLO('other-seg.pt')
+        # elf.__model_seg = YOLO('other-seg.pt')
 
 
         # 0 is object detection, 1 is semantic segmentation

@@ -70,7 +70,6 @@ class MainWindow(QMainWindow):
 
     def __initUi(self):
         self.setWindowTitle('PyQt Ultralytics YOLO GUI')
-
         self.__btn = QPushButton('Run')
         self.__btn.clicked.connect(self.__run)
 
